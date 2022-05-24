@@ -1,0 +1,18 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box !important;
+    list-style: none;
+}
+body{
+    font-family: sans-serif;
+    text-align: center;
+    /* background-image: url(./images/download.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+}
+
+/* button:hover{
+    width: ;
+} */

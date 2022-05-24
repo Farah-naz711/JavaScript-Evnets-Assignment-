@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<div class="container-fluid box1 p-3 " id="BoxOne">
+    <h1 class="my-2">Hello Sir!..</h1>
+    <h1 class="my-2">JavaScript Assignment</h1>
+    <p class="my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque quis dolorum odio minima reiciendis aliquid modi, totam, sequi obcaecati earum alias illum nobis, hic dolor maiores eum aliquam tenetur itaque ad? Tempora tenetur nihil voluptates?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur totam, quidem nisi vero odio placeat ducimus possimus. Aut obcaecati aliquam quisquam, fuga, maxime tempore suscipit libero vero, iste aperiam</p>
+    <button class="btn btn-primary my-1" onclick="changeBox1('bgColor')">Change Background Color</button>
+    <button class="btn btn-primary " onclick="changeBox1('textColor')">Change Text Color</button>
+</div>
+
+    <hr>
+
+<section  class="box2  p-3" 
+>
+<!-- <div class=""> -->
+    <img src="./images/image.jpg" id="BoxTwo" width="350" height="400">
+
+<!-- </div> -->
+<br><br><br>
+    <ul class="d-flex  justify-content-center  flex-wrap">
+        <li><button class="btn btn-primary mx-3" onclick="actionOnImg('hide')">Hide Image</button></li>
+        <li><button class="btn btn-primary mx-3"  onclick="actionOnImg('show')" >Show Image</button></li>
+        <li><button class="btn  btn-primary mx-3" onclick="actionOnImg('increaseSize')">Increase Size Of the Image</button></li>
+        <li><button class="btn  btn-primary mx-3" onclick="actionOnImg('decreaseSize')">Decrease Size Of the Image</button></li>
+
+
+    </ul>
+
+</section>
+<hr>
+<section class="container-fluid p-3 box3">
+    <img src="./images/bulboff.PNG" onmouseover="imageState('on',this)" onmouseout="imageState('off',this)">
+
+</section>
+<hr>
+<section class="container p-3 " id="BoxFour">
+    <h1 class="mb-3"> Change Color of All Paragraphs</h1>
+ <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur, quas eum maxime ut voluptas, id, deserunt earum odit ullam iure dolor. Placeat harum pariatur perspiciatis. Lorem, ipsum dolor. 1</p>
+ 
+ <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur, quas eum maxime ut voluptas, id, deserunt earum odit ullam iure dolor. Placeat harum pariatur perspiciatis. Lorem, ipsum dolor. 2</p>
+ 
+ <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur, quas eum maxime ut voluptas, id, deserunt earum odit ullam iure dolor. Placeat harum pariatur perspiciatis. Lorem, ipsum dolor. 3</p>
+ 
+ <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur, quas eum maxime ut voluptas, id, deserunt earum odit ullam iure dolor. Placeat harum pariatur perspiciatis. Lorem, ipsum dolor.4</p>
+ 
+ <button class="btn btn-primary" onclick="paraColor()">Change the color of the paragraph </button>
+</section>
+<hr>
+<section class="container " id="BoxFive"
+
+><h1> Change Color of 1st and last Paragraph</h1
+
+><div
+
+><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur, quas eum maxime ut voluptas, id, deserunt earum odit ullam iure dolor. Placeat harum pariatur perspiciatis. Lorem, ipsum dolor. 1</p
+    
+>
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur, quas eum maxime ut voluptas, id, deserunt earum odit ullam iure dolor. Placeat harum pariatur perspiciatis. Lorem, ipsum dolor. 2</p
+    
+    ><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur, quas eum maxime ut voluptas, id, deserunt earum odit ullam iure dolor. Placeat harum pariatur perspiciatis. Lorem, ipsum dolor. 3</p
+        
+        >
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur, quas eum maxime ut voluptas, id, deserunt earum odit ullam iure dolor. Placeat harum pariatur perspiciatis. Lorem, ipsum dolor.4</p
+            
+            ></div>
+<button class="btn btn-primary " onclick="firstLastPara()">Color Change of 1st and last</button>
+</section>
+<hr>
+<br><br><br><br><br>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+<script src="app.js"></script>
+</html>
